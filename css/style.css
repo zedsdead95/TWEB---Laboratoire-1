@@ -1,0 +1,49 @@
+body{
+    background-color: whitesmoke;
+}
+
+.main{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border: 1px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    text-align: center;
+    padding: 20px;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#slimshady {
+    height: 200px;
+    width: 200px;
+  
+    border-radius: 50%;
+    border: 1px solid #888;
+}
+
+.informations{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding: 20px 0;
+}
+
+.informations div {
+    width: calc(100% / 3);
+}
+
+.details {
+    color: #888;
+}
